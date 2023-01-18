@@ -1,5 +1,5 @@
 use std::{env, process};
-use mingrep::{Config, run};
+use mingrep_arpitjp::{Config, run};
 
 fn main() {
  let args: Vec<String> = env::args().collect();
